@@ -1,0 +1,10 @@
+.main-nav {
+  background-color: #003566;
+}
+.main-nav .navbar-nav .a.nav-link{
+  color: #fff;
+  font-weight: 600;
+}
+.main-nav .navbar-nav .nav-link.active{
+  color: #ffc300;
+}
