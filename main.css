@@ -1,0 +1,47 @@
+.main-nav {
+  background-color: #003566;
+}
+.main-nav .navbar-nav .a.nav-link{
+  color: #fff;
+  font-weight: 600;
+}
+.main-nav .navbar-nav .nav-link.active,.main-nav .navbar-nav .nav-link:hover{
+  color: #ffc300;
+}
+.navbar.srolled {
+  background-color: #fff;
+  transition: background-color 0.5s ease;
+  box-shadow: 0px -10px 30px #666;
+}
+.navbar.srolled .a.nav-link {
+  color: #666;
+}
+.main-biru{
+  background-color: #003566;
+  color: #fff;
+}
+.main-biru h2 span {
+  color:#ffc300
+}
+button.btn-warning {
+  background-color: #ffc300;
+}
+h2.main-judul::after{
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  border-bottom: 10px solid #ffc300;
+  width: 100px;
+  border-radius: 25px;
+  content: "";
+}
+#main-kolaborasi img{
+  max-height: 50px;
+  max-width: 150px;
+}
+#main-kolaborasi a{
+  display: inline-block;
+  word-spacing: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
